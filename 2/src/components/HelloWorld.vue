@@ -6,7 +6,7 @@
 </template>
 <script>
 export default {
-  name: 'HelloWorld',i
+  name: 'HelloWorld',
   props: {
     klucz: Number, 
     liczba: Number 
