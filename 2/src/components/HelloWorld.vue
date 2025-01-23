@@ -1,15 +1,15 @@
 <template>
   <div class="przycisk">
-    <button @click="handleClick">{{ i + 1 }}</button>
-    <p>Liczba: {{ licz }}</p>
+    <button @click="handleClick">{{ klucz + 1 }}</button>
+    <p>Liczba: {{ liczba }}</p>
   </div>
 </template>
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HelloWorld',i
   props: {
-    i: Number, 
-    licz: Number 
+    klucz: Number, 
+    liczba: Number 
   },
   methods: {
     handleClick() {
